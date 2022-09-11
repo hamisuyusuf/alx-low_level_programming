@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - point
+ * main - Entry point
  * Description: prints all single digit numbers of base 10
  * starting from 0, followed by a new line.
  * Return: 0
@@ -13,7 +13,7 @@ int main(void)
 
 	while (b <= '9')
 	{
-		putchar(b;
+		putchar(b);
 		b++;
 	}
 
