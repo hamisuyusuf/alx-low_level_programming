@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Get a random number and check its last digit, compare it with 5 
+ * Description: print all aplhabet letters except q and e
  * Return: 0
  */
 int main(void)
