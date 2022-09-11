@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char c = 'k';
+	char b = 'a';
 
 	while (b <= 'z')
 	{
@@ -15,7 +15,7 @@ int main(void)
 		b++;
 	}
 
-	b = 'K';
+	b = 'A';
 
 	while (b <= 'Z')
 	{
@@ -26,4 +26,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
