@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- * main - print putchar prototype
- * Return: Always 0
+ * main - print putchar
+ * Return: 0
  */
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+	int put;
+	char hot[] = "_putchar";
 
-	for (ch = 0; ch < 9; ++ch)
-		_putchar(str[ch]);
+	for (put = 0; put < 9; ++ch)
+		_putchar(hot[put]);
 	_putchar('\n');
-	return (0);	
+
+	return (0);
 }
