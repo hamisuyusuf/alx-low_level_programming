@@ -9,6 +9,6 @@
 int _strlen(char *s)
 {
 	char *s[] = "yusuf";
-		return (*s);
+		return (strlen(*s));
 
 }
