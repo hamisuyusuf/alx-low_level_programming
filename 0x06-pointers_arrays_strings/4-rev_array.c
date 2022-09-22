@@ -2,7 +2,7 @@
 /**
  * reverse_array - function that reverse two  string.
  * @a: first string
- * @: second string
+ * @n: second string
  * Return: dest
  */
 void reverse_array(int *a, int n)
