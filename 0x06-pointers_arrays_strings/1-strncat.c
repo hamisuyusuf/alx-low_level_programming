@@ -8,7 +8,7 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	
+
 	int touch = 0, touch2 = 0;
 
 	while (*(dest + touch) != '\0')
