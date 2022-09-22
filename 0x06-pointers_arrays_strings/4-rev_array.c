@@ -1,21 +1,22 @@
-#include"main.h"
+#include "main.h"
 /**
- * reverse_array - function that reverse two  string.
- * @a: first string
- * @n: second string
- * Return: dest
+ * reverse_array - reverses the content of an array
+ * @a: array.
+ * @n: number of elements of the array.
+ * Return: no return.
  */
+
 void reverse_array(int *a, int n)
 {
-	int a, j, temp;
+	int i, k, temp;
 
-	for (a = 0; a < n - 1; a++)
+	for (i = 0; i < n - 1; i++)
 	{
-		for (j = a + 1; j > 0; j--)
+		for (k = i + 1; k > 0; k--)
 		{
-			temp = *(a + j);
-			*(a + j) = *(a + (j - 1));
-			*(a + (j - 1)) = temp;
+			temp = *(a + k);
+			*(a + k) = *(a + (k - 1));
+			*(a + (k - 1)) = temp;
 		}
 	}
 }
