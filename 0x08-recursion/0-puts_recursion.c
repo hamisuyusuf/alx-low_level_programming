@@ -2,7 +2,6 @@
 
 /**
  * _puts_recursion - function that prints a string
- * @char: first char
  * @s: poniter
  * Return: new line
  */
@@ -15,7 +14,7 @@ void _puts_recursion(char *s);
 
 void _puts_recursion(char *s)
 {
-	_puchar(\n);
+	_puchar("\n");
 
 }
 
