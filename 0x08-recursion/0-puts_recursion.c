@@ -10,10 +10,10 @@ void _puts_recursion(char *s);
 {
 	*s = "hello";
 
-	_putchar(s);
+	_putchar(*s);
 
 
-	_puchar("\n");
+	_puchar('\n');
 
 
 }
