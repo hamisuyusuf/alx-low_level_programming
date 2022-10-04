@@ -3,7 +3,7 @@
 /**
  * create_array - function that creates an array of chars
  * @size: size of array
- * @c: char 
+ * @c: char
  * Return: array
  */
 
@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
-		a[i] = c;
+	a[i] = c;
 
 	return (a);
 }
