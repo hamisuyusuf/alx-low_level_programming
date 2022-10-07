@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * malloc_checked - alloctes memory using malloc
  * @b: number of blocks required
