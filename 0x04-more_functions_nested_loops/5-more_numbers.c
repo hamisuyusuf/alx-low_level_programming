@@ -1,10 +1,10 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * more_numbers - Entry point
- *
- * Return: number 10 times
- */
+* more_numbers - Entry point
+*
+* Return: number 10 times
+*/
 
 void more_numbers(void)
 {
