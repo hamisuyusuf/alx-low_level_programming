@@ -2,15 +2,20 @@
 
 /**
  * print_square - prints a square
+ *
  * @size: parameter
  */
 
 void print_square(int size)
+
 {
+
 	int i = 0;
+
 	while (i < size && size > 0)
 	{
 		int j = 0;
+
 		while (j < size)
 		{
 			_putchar('#');
